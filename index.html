@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="個人店・小規模事業者向けのWebサイト制作。InstagramやGoogleマップから来た方に、メニュー・雰囲気・営業時間・コンセプトを伝える公式サイトを、安心価格で制作します。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://dohi-web-design.example.com/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dohi Web Design | 初めてのWebサイト制作">
+  <meta property="og:description" content="個人店・小規模事業者向けのWebサイト制作。メニュー・雰囲気・営業時間・コンセプトを伝える公式サイトを、安心価格で制作します。">
+  <meta property="og:url" content="https://dohi-web-design.example.com/">
+  <meta property="og:site_name" content="Dohi Web Design">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:image" content="https://dohi-web-design.example.com/og-image.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Dohi Web Design | 初めてのWebサイト制作">
+  <meta name="twitter:description" content="個人店・小規模事業者向けのWebサイト制作。メニュー・雰囲気・営業時間・コンセプトを伝える公式サイトを、安心価格で制作します。">
+  <meta name="twitter:image" content="https://dohi-web-design.example.com/og-image.png">
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Dohi Web Design | 初めてのWebサイト制作</title>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#" class="header__logo" aria-label="Dohi Web Design トップへ">Dohi Web Design</a>
+      <button class="header__menu" id="menu-btn" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="header__nav" id="main-nav" aria-label="メインナビゲーション">
+        <a href="#features">サービス</a>
+        <a href="#portfolio">制作実績</a>
+        <a href="#pricing">料金</a>
+        <a href="#flow">制作の流れ</a>
+        <a href="#contact" class="header__cta">お問い合わせ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. ファーストビュー -->
+    <section class="hero" id="top">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__bg-gradient"></div>
+        <div class="hero__bg-blob hero__bg-blob--1"></div>
+        <div class="hero__bg-blob hero__bg-blob--2"></div>
+        <div class="hero__bg-blob hero__bg-blob--3"></div>
+        <div class="hero__bg-panel"></div>
+        <div class="hero__bg-line hero__bg-line--v"></div>
+        <div class="hero__bg-line hero__bg-line--h"></div>
+        <div class="hero__bg-text">Design</div>
+      </div>
+      <div class="wrap hero__inner">
+        <p class="hero__meta anim-in" style="--delay: 0.1s">Ehime · Matsuyama — Web Design Studio</p>
+        <h1 class="hero__title anim-in" style="--delay: 0.25s">
+          <span class="hero__title-line">初めてのWebサイト制作を、</span>
+          <span class="hero__title-line hero__title-line--accent">高品質で、安心価格で。</span>
+        </h1>
+        <div class="hero__bottom anim-in" style="--delay: 0.45s">
+          <div class="hero__copy">
+            <p class="hero__desc">
+              個人店・小規模事業者向けに、InstagramやGoogleマップから見に来た人へ、メニュー・雰囲気・営業時間・コンセプトをしっかり伝える公式サイトを制作します。
+            </p>
+            <p class="hero__note">Webサイトが初めての方でも、ヒアリングから公開まで丁寧にサポートします。</p>
+          </div>
+          <div class="hero__actions">
+            <a href="#pricing" class="link-arrow">料金プランを見る</a>
+            <a href="#contact" class="link-arrow">相談してみる</a>
+            <a href="#portfolio" class="link-arrow link-arrow--ghost">制作実績を見る</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. サービス -->
+    <section class="section section--alt" id="features">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__num">01 — Service</span>
+          <h2 class="section__title">サービスについて</h2>
+          <p class="section__lead">個人店・小規模事業者向けに、伝わる公式サイトをシンプルに制作します。</p>
+        </div>
+
+        <div class="content-block reveal" id="recommend">
+          <div class="content-block__head">
+            <span class="content-block__label">For You</span>
+            <h3 class="content-block__title">こんな方におすすめ</h3>
+          </div>
+        <ul class="problems__grid reveal-stagger">
+          <li class="problems__item"><span class="problems__num">01</span><span class="problems__text">Instagramだけでは情報が流れてしまう</span></li>
+          <li class="problems__item"><span class="problems__num">02</span><span class="problems__text">Googleマップから来た人に、詳しい情報を見せたい</span></li>
+          <li class="problems__item"><span class="problems__num">03</span><span class="problems__text">メニューや料金を分かりやすく載せたい</span></li>
+          <li class="problems__item"><span class="problems__num">04</span><span class="problems__text">お店の雰囲気やコンセプトを伝えたい</span></li>
+          <li class="problems__item"><span class="problems__num">05</span><span class="problems__text">名刺やチラシに載せる公式サイトがほしい</span></li>
+          <li class="problems__item"><span class="problems__num">06</span><span class="problems__text">初めてWebサイトを作るので、何を載せればいいか分からない</span></li>
+          <li class="problems__item problems__item--full"><span class="problems__num">07</span><span class="problems__text">高額な制作会社に頼む前に、まずは小さく始めたい</span></li>
+        </ul>
+        </div>
+
+        <div class="content-block reveal" id="service-features">
+          <div class="content-block__head">
+            <span class="content-block__label">Features</span>
+            <h3 class="content-block__title">小さなお店でも使いやすい、<br>シンプルで伝わるWebサイト</h3>
+          </div>
+        <ul class="icon-card-grid icon-card-grid--feature reveal-stagger">
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7l8-4 8 4v10l-8 4-8-4V7z"/><path d="M12 3v18"/><path d="M4 7l8 4 8-4"/></svg></span>
+            <span class="icon-card__text">デザインからコーディング、公開設定まで対応</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="7" y="2" width="10" height="20" rx="2"/><path d="M11 18h2"/></svg></span>
+            <span class="icon-card__text">スマホで見やすいサイトを制作</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 14H6a4 4 0 010-8h1"/><path d="M14 10h4a4 4 0 010 8h-1"/><path d="M9 15l6-6"/></svg></span>
+            <span class="icon-card__text">Instagram、Googleマップ、電話、メールなどへの導線を設置</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3-3"/></svg></span>
+            <span class="icon-card__text">基本SEO設定込み</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16v12H4z"/><path d="M8 10h8"/><path d="M8 14h5"/><path d="M16 4v2"/><path d="M8 4v2"/></svg></span>
+            <span class="icon-card__text">必要に応じて、お知らせやメニュー更新機能をmicroCMSで対応</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/></svg></span>
+            <span class="icon-card__text">WordPressや複雑なシステムは使わず、安全性と運用しやすさを重視</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a4 4 0 010 5.7l-5.4 5.4a2 2 0 01-2.8-2.8l5.4-5.4"/><path d="M8 16l-2 2"/><path d="M16 8l2-2"/></svg></span>
+            <span class="icon-card__text">公開後の軽微な修正や保守にも対応可能</span>
+          </li>
+        </ul>
+        </div>
+
+        <div class="content-block reveal" id="site-types">
+          <div class="content-block__head">
+            <span class="content-block__label">Site Types</span>
+            <h3 class="content-block__title">制作できるサイト</h3>
+          </div>
+        <ul class="icon-card-grid icon-card-grid--tile reveal-stagger">
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 20V10l8-6 8 6v10"/><path d="M9 20v-6h6v6"/></svg></span>
+            <span class="icon-card__text">店舗公式サイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 8h12v5a4 4 0 01-4 4H8a4 4 0 01-4-4V8z"/><path d="M18 9h1a2 2 0 010 4h-1"/></svg></span>
+            <span class="icon-card__text">カフェ、飲食店サイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="2"/><circle cx="7" cy="17" r="2"/><path d="M9 8l10 8"/><path d="M9 16L19 6"/></svg></span>
+            <span class="icon-card__text">美容室、サロンサイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 12h4l2-4 4 8 2-4h4"/></svg></span>
+            <span class="icon-card__text">整体、ジム、教室系サイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3"/><path d="M6 20v-1a6 6 0 0112 0v1"/></svg></span>
+            <span class="icon-card__text">個人事業主のサービスサイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 4h8l4 4v12H8z"/><path d="M16 4v4h4"/></svg></span>
+            <span class="icon-card__text">1ページのシンプルなホームページ</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 21s6-5.2 6-10a6 6 0 10-12 0c0 4.8 6 10 6 10z"/><circle cx="12" cy="11" r="2"/></svg></span>
+            <span class="icon-card__text">InstagramやGoogleマップから飛ばすための公式サイト</span>
+          </li>
+          <li class="icon-card icon-card--positive">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 6h12"/><path d="M8 12h12"/><path d="M8 18h12"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
+            <span class="icon-card__text">メニュー、料金、営業時間、アクセス、コンセプトを整理したサイト</span>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. 対応しないもの -->
+    <section class="section section--muted" id="scope-out">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__num">02 — Scope</span>
+          <h2 class="section__title">安全性と品質を保つため、<br>対応範囲を絞っています</h2>
+          <p class="section__lead">以下は基本的に対応外、または要相談としてください。</p>
+        </div>
+        <ul class="icon-card-grid icon-card-grid--tile icon-card-grid--scope reveal-stagger">
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16"/><path d="M4 12h16"/><path d="M4 18h10"/></svg></span>
+            <span class="icon-card__text">WordPress制作</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="11" width="14" height="10" rx="1"/><path d="M8 11V8a4 4 0 018 0v3"/></svg></span>
+            <span class="icon-card__text">ログイン機能</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="8" r="2.5"/><circle cx="16" cy="10" r="2"/><path d="M4 19v-1a4 4 0 014-4h1"/><path d="M13 19v-1a3 3 0 013-3h1"/></svg></span>
+            <span class="icon-card__text">会員機能</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="6" width="18" height="12" rx="2"/><path d="M3 10h18"/></svg></span>
+            <span class="icon-card__text">決済機能</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="20" r="1"/><circle cx="17" cy="20" r="1"/><path d="M3 4h2l2 12h11l2-8H7"/></svg></span>
+            <span class="icon-card__text">大規模ECサイト</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 8l-2 2 2 2"/><path d="M16 8l2 2-2 2"/><path d="M13 7l-2 10"/></svg></span>
+            <span class="icon-card__text">Firebaseなどを使う本格的なWebアプリ</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4"/><path d="M16 3v4"/><path d="M4 10h16"/></svg></span>
+            <span class="icon-card__text">予約システムの自作</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 3l8 4v5c0 5-3.5 8.5-8 9-4.5-.5-8-4-8-9V7l8-4z"/><path d="M12 11v3"/><path d="M12 16h.01"/></svg></span>
+            <span class="icon-card__text">個人情報を大量に扱うシステム</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 18l4-6 4 3 4-7 4 10"/><path d="M4 18h16"/></svg></span>
+            <span class="icon-card__text">検索順位を保証するSEO対策</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 013 3L8 18l-4 1 1-4 11.5-11.5z"/></svg></span>
+            <span class="icon-card__text">毎月の記事作成代行</span>
+          </li>
+          <li class="icon-card icon-card--muted">
+            <span class="icon-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 7h4l2-2h4l2 2h4v11H4z"/><circle cx="12" cy="12" r="3"/></svg></span>
+            <span class="icon-card__text">本格的な写真撮影やロゴ制作</span>
+          </li>
+        </ul>
+        <p class="scope-out__note reveal">予約については、ホットペッパー、食べログ、Instagram DM、電話、外部予約サービスへのリンクで対応します。</p>
+      </div>
+    </section>
+
+    <!-- 制作実績 -->
+    <section class="section portfolio" id="portfolio">
+      <div class="wrap--wide">
+        <div class="section__head reveal">
+          <span class="section__num">03 — Works</span>
+          <h2 class="section__title">制作実績</h2>
+          <p class="section__lead">
+            <span class="portfolio__lead-line">掲載している制作実績は、すべて自主制作・架空サイトです。</span>
+          </p>
+        </div>
+        <div class="portfolio__list reveal-stagger">
+          <article class="portfolio__item">
+            <div class="portfolio__visual portfolio__visual--touan">
+              <img src="images/portfolio/touan_works.webp" alt="古民家茶房 灯庵のサイト" width="1906" height="1055" loading="lazy" decoding="async">
+              <span class="portfolio__visual-label">Self-produced</span>
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">古民家茶房 灯庵 — TOUAN</h3>
+              <p class="portfolio__type">和カフェ / 自主制作</p>
+              <p class="portfolio__desc">和カフェを想定した自主制作サイト。店舗の世界観や落ち着いた雰囲気が伝わるよう、余白・写真・縦書き表現を意識して制作しました。</p>
+              <p class="portfolio__tech">HTML / CSS / JavaScript</p>
+              <a href="https://dohiwebc.github.io/touan/" class="portfolio__link" target="_blank" rel="noopener noreferrer" aria-label="古民家茶房 灯庵のサイトを見る">サイトを見る →</a>
+            </div>
+          </article>
+          <article class="portfolio__item">
+            <div class="portfolio__visual portfolio__visual--lune">
+              <img src="images/portfolio/LUNECAFE_works.webp" alt="LUNE CAFEのサイト" width="1915" height="918" loading="lazy" decoding="async">
+              <span class="portfolio__visual-label">Self-produced</span>
+            </div>
+            <div class="portfolio__body">
+              <h3 class="portfolio__name">LUNE CAFE</h3>
+              <p class="portfolio__type">夜カフェ / 自主制作</p>
+              <p class="portfolio__desc">夜カフェを想定したLP型サイト。大人っぽい雰囲気と、来店したくなる導線を意識して制作しました。</p>
+              <p class="portfolio__tech">HTML / CSS / JavaScript</p>
+              <a href="https://dohiwebc.github.io/LUNECAFE/" class="portfolio__link" target="_blank" rel="noopener noreferrer" aria-label="LUNE CAFEのサイトを見る">サイトを見る →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. 料金プラン -->
+    <section class="section" id="pricing">
+      <div class="wrap--wide">
+        <div class="section__head reveal">
+          <span class="section__num">04 — Pricing</span>
+          <h2 class="section__title">料金プラン</h2>
+          <p class="section__lead">
+            <span class="pricing__lead-line">ライト → スタンダード → プレミアムの順で、</span>
+            <span class="pricing__lead-line">ページ数と掲載内容が増えていく構成です。</span>
+          </p>
+        </div>
+        <div class="pricing__tabs reveal" role="tablist" aria-label="料金プランを選択">
+          <span class="pricing__tabs-indicator" aria-hidden="true"></span>
+          <button type="button" class="pricing__tab is-active" role="tab" id="pricing-tab-light" aria-selected="true" aria-controls="pricing-panel-light" data-plan="light">ライト</button>
+          <button type="button" class="pricing__tab" role="tab" id="pricing-tab-standard" aria-selected="false" aria-controls="pricing-panel-standard" data-plan="standard">スタンダード</button>
+          <button type="button" class="pricing__tab" role="tab" id="pricing-tab-premium" aria-selected="false" aria-controls="pricing-panel-premium" data-plan="premium">プレミアム</button>
+        </div>
+        <div class="pricing__grid reveal-stagger">
+          <article class="pricing__card pricing__card--featured is-active" id="pricing-panel-light" role="tabpanel" aria-labelledby="pricing-tab-light" data-plan="light" tabindex="0">
+            <span class="pricing__tag">Recommended</span>
+            <h3 class="pricing__name">ライトプラン</h3>
+            <p class="pricing__price">50,000円〜</p>
+            <ul class="pricing__list">
+              <li>1ページ構成</li>
+              <li>シンプルなデザイン</li>
+              <li>スマホ対応</li>
+              <li>基本SEO設定</li>
+              <li>SNS、Googleマップ、電話、メール導線</li>
+              <li>公開設定</li>
+              <li>修正3回まで</li>
+              <li>問い合わせフォームなし</li>
+              <li>CMSなし</li>
+            </ul>
+            <p class="pricing__for">おすすめ：初めてWebサイトを作る方、小さく始めたい方</p>
+          </article>
+          <article class="pricing__card" id="pricing-panel-standard" role="tabpanel" aria-labelledby="pricing-tab-standard" data-plan="standard" tabindex="0">
+            <h3 class="pricing__name">スタンダードプラン</h3>
+            <p class="pricing__price">100,000円〜</p>
+            <ul class="pricing__list">
+              <li>1ページまたは小規模構成</li>
+              <li>デザインの作り込み</li>
+              <li>メニュー、写真、コンセプト整理</li>
+              <li>スマホ対応</li>
+              <li>基本SEO設定</li>
+              <li>SNS、Googleマップ、電話、メール導線</li>
+              <li>必要に応じてフォーム対応</li>
+              <li>公開設定</li>
+              <li>修正5回まで</li>
+            </ul>
+            <p class="pricing__for">おすすめ：お店の雰囲気やサービス内容をしっかり伝えたい方</p>
+          </article>
+          <article class="pricing__card" id="pricing-panel-premium" role="tabpanel" aria-labelledby="pricing-tab-premium" data-plan="premium" tabindex="0">
+            <h3 class="pricing__name">プレミアムプラン</h3>
+            <p class="pricing__price">150,000円〜</p>
+            <ul class="pricing__list">
+              <li>構成多めのサイト</li>
+              <li>デザインの作り込み強め</li>
+              <li>写真やメニュー点数が多いサイト</li>
+              <li>Formspreeフォーム対応</li>
+              <li>microCMSによるお知らせ、ブログ、メニュー更新機能に対応可能</li>
+              <li>基本SEO設定</li>
+              <li>公開設定</li>
+              <li>修正7回まで</li>
+            </ul>
+            <p class="pricing__for">おすすめ：情報量が多い店舗、更新機能を付けたい方、しっかり作り込みたい方</p>
+          </article>
+        </div>
+
+        <!-- 7. オプション料金 -->
+        <div class="options reveal" id="options">
+          <div class="options__head">
+            <h3 class="options__title">オプション料金</h3>
+            <p class="options__lead">
+              <span class="options__lead-line">プランに追加できるオプションです。</span>
+              <span class="options__lead-line">内容や規模により、お見積もりとなる場合があります。</span>
+            </p>
+          </div>
+
+          <div class="options-groups reveal-stagger">
+            <div class="options-column">
+            <section class="options-group options-group--page">
+              <header class="options-group__head">
+                <h4 class="options-group__title">ページ・デザイン追加</h4>
+                <p class="options-group__desc">構成追加や、方向性を大きく変える修正</p>
+              </header>
+              <ul class="options-list">
+                <li class="options-item"><span class="options-item__name">セクション追加</span><span class="options-item__price">+5,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">ページ追加</span><span class="options-item__price">+10,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">大幅なデザイン変更</span><span class="options-item__price">制作費の30％〜</span></li>
+                <li class="options-item"><span class="options-item__name">ほぼ作り直し</span><span class="options-item__price">制作費の50％〜</span></li>
+              </ul>
+            </section>
+
+            <section class="options-group options-group--other">
+              <header class="options-group__head">
+                <h4 class="options-group__title">その他</h4>
+                <p class="options-group__desc">特急対応・撮影など</p>
+              </header>
+              <ul class="options-list">
+                <li class="options-item"><span class="options-item__name">特急対応</span><span class="options-item__price">制作費+20％〜50％</span></li>
+                <li class="options-item"><span class="options-item__name">実績掲載不可</span><span class="options-item__price">制作費+10％</span></li>
+                <li class="options-item options-item--consult"><span class="options-item__name">簡易写真撮影</span><span class="options-item__price options-item__price--consult">近隣のみ要相談</span></li>
+                <li class="options-item options-item--consult"><span class="options-item__name">遠方撮影</span><span class="options-item__price options-item__price--consult">交通費など実費全額</span></li>
+              </ul>
+            </section>
+            </div>
+
+            <div class="options-column">
+            <section class="options-group options-group--form">
+              <header class="options-group__head">
+                <h4 class="options-group__title">フォーム・更新機能</h4>
+                <p class="options-group__desc">問い合わせや、お知らせ・メニューなどの更新機能</p>
+              </header>
+              <ul class="options-list">
+                <li class="options-item"><span class="options-item__name">問い合わせフォーム設置</span><span class="options-item__price">+10,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">お知らせ更新機能</span><span class="options-item__price">+30,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">ブログ更新機能</span><span class="options-item__price">+50,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">メニュー更新機能</span><span class="options-item__price">+50,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">複数コンテンツ管理</span><span class="options-item__price">+80,000円〜</span></li>
+              </ul>
+            </section>
+
+            <section class="options-group options-group--seo">
+              <header class="options-group__head">
+                <h4 class="options-group__title">SEO</h4>
+                <p class="options-group__desc">検索から集客したい方向けの追加設定</p>
+              </header>
+              <ul class="options-list">
+                <li class="options-item"><span class="options-item__name">地域SEO設定</span><span class="options-item__price">+20,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">SEO初期設計</span><span class="options-item__price">+30,000円〜</span></li>
+                <li class="options-item"><span class="options-item__name">SEO月次チェック</span><span class="options-item__price">月10,000円〜</span></li>
+              </ul>
+            </section>
+            </div>
+          </div>
+
+          <p class="options__note">※ 料金は目安です。ヒアリング後に正式なお見積もりをご案内します。</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. 制作の考え方 -->
+    <section class="section section--alt section--compact" id="approach">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__num">05 — Approach</span>
+          <h2 class="section__title">制作の考え方</h2>
+          <p class="section__lead">SEOやセキュリティも含め、無理のない範囲で運用しやすいサイトを目指します。</p>
+        </div>
+
+        <div class="content-block reveal" id="seo">
+          <div class="content-block__head">
+            <span class="content-block__label">SEO</span>
+            <h3 class="content-block__title">SEOは必要な方だけ、<br>オプションで対応します</h3>
+          </div>
+          <div class="prose">
+            <p class="prose__split">
+              <span class="seo__lead-line">全てのサイトに本格的なSEO対策が必要なわけではありません。</span>
+              <span class="seo__lead-line">Instagram、Googleマップ、名刺、チラシ、QRコードから見に来た人に、メニュー・雰囲気・営業時間・コンセプトを見てもらう目的であれば、基本SEO設定で十分な場合もあります。</span>
+            </p>
+            <p>一方で、「地域名＋業種」などのGoogle検索から新規のお客様を増やしたい場合は、地域SEO設定やSEO初期設計をオプションで対応します。</p>
+            <p class="prose__note">※ SEOは検索順位の上昇を保証するものではありません。</p>
+          </div>
+        </div>
+
+        <div class="content-block reveal" id="security">
+          <div class="content-block__head">
+            <span class="content-block__label">Security</span>
+            <h3 class="content-block__title">安全性と運用しやすさを<br>重視した制作</h3>
+          </div>
+          <ul class="feature__list">
+            <li class="feature__item">静的サイトを中心に制作</li>
+            <li class="feature__item">WordPressは基本対応外</li>
+            <li class="feature__item">ログイン機能やデータベースを使う複雑なWebアプリは基本対応外</li>
+            <li class="feature__item">問い合わせはメール、電話、Instagram、外部サービスへの導線を基本とする</li>
+            <li class="feature__item">フォームが必要な場合はFormspreeで対応</li>
+            <li class="feature__item">CMSが必要な場合はmicroCMSで、お知らせやメニューなど一部だけ更新できるようにする</li>
+            <li class="feature__item">ドメインや外部サービスは原則お客様名義で契約</li>
+            <li class="feature__item">ログインIDやパスワードは原則預からず、メンバー招待・権限追加・画面共有で設定サポートを行う</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. 制作の流れ -->
+    <section class="section" id="flow">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__num">06 — Process</span>
+          <h2 class="section__title">制作の流れ</h2>
+          <p class="section__lead">お問い合わせから公開まで、全11ステップ。大きく分けると「相談」「制作」「公開」の3段階で進みます。</p>
+        </div>
+
+        <ol class="flow-roadmap reveal" aria-label="制作の流れの概要">
+          <li class="flow-roadmap__item">
+            <span class="flow-roadmap__steps">STEP 1 — 4</span>
+            <span class="flow-roadmap__title">相談・ヒアリング</span>
+            <span class="flow-roadmap__desc">ご要望の整理と見積もり</span>
+          </li>
+          <li class="flow-roadmap__item">
+            <span class="flow-roadmap__steps">STEP 5 — 8</span>
+            <span class="flow-roadmap__title">制作・確認</span>
+            <span class="flow-roadmap__desc">着手金後に制作・修正</span>
+          </li>
+          <li class="flow-roadmap__item">
+            <span class="flow-roadmap__steps">STEP 9 — 11</span>
+            <span class="flow-roadmap__title">公開・サポート</span>
+            <span class="flow-roadmap__desc">残金後に本番公開</span>
+          </li>
+        </ol>
+
+        <div class="flow-phases reveal-stagger">
+          <section class="flow-phase">
+            <header class="flow-phase__head">
+              <span class="flow-phase__label">Phase 01</span>
+              <h3 class="flow-phase__title">相談・ヒアリング</h3>
+              <p class="flow-phase__lead">まずはお店のことを教えてください。内容が固まっていなくても大丈夫です。</p>
+            </header>
+            <ol class="flow-timeline">
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">1</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">お問い合わせ</h4>
+                  <p class="flow-timeline__desc">相談内容、サイトの目的、希望プランを確認します。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">2</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">ヒアリングシート記入</h4>
+                  <p class="flow-timeline__desc">お店の情報、載せたい内容、写真、参考サイト、希望の雰囲気などを記入していただきます。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">3</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">打ち合わせ</h4>
+                  <p class="flow-timeline__desc">基本はメッセージで進行します。文面で伝わりにくそうな場合は対面、遠方の場合はZoomや電話で対応します。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">4</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">見積もり・制作前確認</h4>
+                  <p class="flow-timeline__desc">制作範囲、料金、納期、修正回数、素材、オプション、支払い条件を確認します。</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          <section class="flow-phase">
+            <header class="flow-phase__head">
+              <span class="flow-phase__label">Phase 02</span>
+              <h3 class="flow-phase__title">制作・確認</h3>
+              <p class="flow-phase__lead">着手金のお支払い後、実際のページを制作。スマホでも確認しながら進めます。</p>
+            </header>
+            <ol class="flow-timeline">
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">5</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">着手金のお支払い</h4>
+                  <p class="flow-timeline__desc">制作開始前に見積額の50％をお支払いいただきます。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">6</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">制作開始</h4>
+                  <p class="flow-timeline__desc">Figmaは基本使わず、ヒアリング内容をもとに実際のWebページを制作します。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">7</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">確認用URLで確認</h4>
+                  <p class="flow-timeline__desc">本番公開前の仮URLを共有し、スマホやPCで実際の表示を確認していただきます。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">8</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">修正対応</h4>
+                  <p class="flow-timeline__desc">各プランの修正回数内で対応します。同じ方向性内のデザイン調整は初回確認後2回まで対応します。</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+
+          <section class="flow-phase">
+            <header class="flow-phase__head">
+              <span class="flow-phase__label">Phase 03</span>
+              <h3 class="flow-phase__title">公開・サポート</h3>
+              <p class="flow-phase__lead">完成を確認いただいたら残金のお支払い後、本番公開。公開後もしばらくサポートします。</p>
+            </header>
+            <ol class="flow-timeline">
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">9</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">残金のお支払い</h4>
+                  <p class="flow-timeline__desc">完成確認後、本番公開前に残り50％をお支払いいただきます。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker" aria-hidden="true"><span class="flow-timeline__num">10</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">本番公開</h4>
+                  <p class="flow-timeline__desc">本番ドメインへ接続し、正式公開します。</p>
+                </div>
+              </li>
+              <li class="flow-timeline__item">
+                <span class="flow-timeline__marker flow-timeline__marker--last" aria-hidden="true"><span class="flow-timeline__num">11</span></span>
+                <div class="flow-timeline__body">
+                  <h4 class="flow-timeline__title">公開後サポート</h4>
+                  <p class="flow-timeline__desc">公開後7日間は軽微な不具合修正・誤字修正を無料対応します。それ以降は保守契約またはスポット対応となります。</p>
+                </div>
+              </li>
+            </ol>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. ご依頼・公開後について -->
+    <section class="section section--compact" id="support">
+      <div class="wrap wrap--wide">
+        <div class="section__head reveal">
+          <span class="section__num">07 — Support</span>
+          <h2 class="section__title">ご依頼・公開後について</h2>
+          <p class="section__lead">制作の細かなルール、保守、連絡についてのご案内です。</p>
+        </div>
+
+        <div class="content-block reveal" id="details">
+          <div class="content-block__head">
+            <span class="content-block__label">Details</span>
+            <h3 class="content-block__title">制作の詳細</h3>
+          </div>
+
+        <div class="detail-block" id="meeting">
+          <h3 class="detail-block__title">打ち合わせについて</h3>
+          <ul class="detail-block__list">
+            <li>まずはヒアリングシートで情報を集める</li>
+            <li>基本はメッセージで進行</li>
+            <li>文面だけで伝わりにくい場合は対面</li>
+            <li>遠方の場合はZoomまたは電話</li>
+            <li>口頭で決まった内容も、後から文章で確認する</li>
+            <li>重要な内容は記録に残し、認識のズレを防ぐ</li>
+          </ul>
+        </div>
+
+        <div class="detail-block" id="design-review">
+          <h3 class="detail-block__title">デザイン確認について</h3>
+          <ul class="detail-block__list">
+            <li>デザイン案は基本1案</li>
+            <li>Figmaは基本使わない</li>
+            <li>実際のWebページを作りながら進行</li>
+            <li>確認用URLでスマホやPCから確認</li>
+            <li>初回確認後、同じ方向性内のデザイン調整は2回まで対応</li>
+            <li>色味、余白、写真、文言、一部レイアウトの修正は無料修正回数内で対応</li>
+            <li>別方向のデザイン案、ページ全体の作り直し、大幅な構成変更、機能追加は別途料金</li>
+          </ul>
+        </div>
+
+        <div class="detail-block" id="revision">
+          <h3 class="detail-block__title">修正ルール</h3>
+          <ul class="detail-block__list">
+            <li>ライトプラン：3回まで</li>
+            <li>スタンダードプラン：5回まで</li>
+            <li>プレミアムプラン：7回まで</li>
+            <li>修正内容はできるだけまとめて提出</li>
+            <li>まとめて提出された修正内容への対応を1回分としてカウント</li>
+            <li>大幅なデザイン変更や機能追加は無料修正回数内でも別途料金</li>
+            <li>確認依頼後、3〜5日以内を目安に返信</li>
+            <li>返信や素材提出が遅れた場合、納期も後ろ倒しになる場合がある</li>
+          </ul>
+        </div>
+
+        <div class="detail-block" id="delivery">
+          <h3 class="detail-block__title">納期の目安</h3>
+          <table class="info-table detail-block__table">
+            <tbody>
+              <tr><th scope="row">ライトプラン</th><td>素材受領後、最短3日〜1週間</td></tr>
+              <tr><th scope="row">スタンダードプラン</th><td>素材受領後、1〜2週間</td></tr>
+              <tr><th scope="row">プレミアムプラン</th><td>素材受領後、2週間〜1か月</td></tr>
+            </tbody>
+          </table>
+          <ul class="detail-block__list detail-block__list--note">
+            <li>文章、写真、ロゴなど必要な素材が全て揃ってからの目安</li>
+            <li>他案件との制作日程が重なっている場合、1〜2週間ほど遅れる場合あり</li>
+            <li>修正内容、修正回数、追加要望によって変動</li>
+            <li>納期に影響がある場合は事前に伝える</li>
+          </ul>
+        </div>
+
+        <div class="detail-block" id="materials">
+          <h3 class="detail-block__title">素材について</h3>
+          <ul class="detail-block__list">
+            <li>掲載する文章、写真、ロゴは原則お客様から支給</li>
+            <li>誤字脱字や軽い言い回しの調整はこちらで無料対応</li>
+            <li>文章を一から作る場合やキャッチコピー作成は別途相談</li>
+            <li>写真がない場合は、フリー素材や簡易撮影で対応可能な場合あり</li>
+            <li>近隣の場合は簡易撮影に対応可能</li>
+            <li>遠方撮影の場合は交通費など実費を全額負担</li>
+            <li>本格的な写真撮影が必要な場合はカメラマン依頼を推奨</li>
+            <li>お客様から支給される文章、写真、ロゴの使用権利はお客様側で確認</li>
+          </ul>
+        </div>
+
+        <div class="detail-block" id="payment">
+          <h3 class="detail-block__title">支払い・キャンセルについて</h3>
+          <table class="info-table detail-block__table">
+            <tbody>
+              <tr><th scope="row">制作開始前</th><td>見積額の50％をお支払い</td></tr>
+              <tr><th scope="row">完成後・公開前</th><td>残り50％をお支払い</td></tr>
+              <tr><th scope="row">キャンセル（着手前）</th><td>無料</td></tr>
+              <tr><th scope="row">キャンセル（制作着手後）</th><td>見積額の50％</td></tr>
+              <tr><th scope="row">キャンセル（完成後）</th><td>見積額の100％</td></tr>
+            </tbody>
+          </table>
+          <p class="detail-block__note">制作着手後の着手金は原則返金不可。ただし、制作者側の都合で制作継続ができなくなった場合は返金対応を検討します。</p>
+        </div>
+        </div>
+
+        <div class="content-block reveal" id="maintenance">
+          <div class="content-block__head">
+            <span class="content-block__label">Maintenance</span>
+            <h3 class="content-block__title">保守管理</h3>
+            <p class="content-block__lead">公開後の更新や確認が必要な方向けに、保守プランを用意しています。</p>
+          </div>
+          <div class="maintenance__grid reveal-stagger">
+            <article class="pricing__card">
+              <h3 class="pricing__name">ライト保守</h3>
+              <p class="pricing__price">月5,000円</p>
+              <ul class="pricing__list">
+                <li>月1回の表示確認</li>
+                <li>SSL確認</li>
+                <li>フォーム動作確認</li>
+                <li>軽微な文章修正1回</li>
+                <li>ドメイン期限の確認サポート</li>
+              </ul>
+            </article>
+            <article class="pricing__card">
+              <h3 class="pricing__name">スタンダード保守</h3>
+              <p class="pricing__price">月10,000円</p>
+              <ul class="pricing__list">
+                <li>月1〜2回の軽微な更新</li>
+                <li>お知らせ更新代行</li>
+                <li>表示崩れ確認</li>
+                <li>Search Console簡易確認</li>
+                <li>緊急時の一次対応</li>
+              </ul>
+            </article>
+          </div>
+          <div class="detail-block">
+            <h3 class="detail-block__title">保守に含まれないもの</h3>
+            <ul class="detail-block__list">
+              <li>新規ページ追加</li>
+              <li>大幅なデザイン変更</li>
+              <li>新機能追加</li>
+              <li>SEO順位保証</li>
+              <li>記事作成</li>
+              <li>写真撮影</li>
+              <li>外部サービスの有料費用</li>
+              <li>お客様側の操作や設定変更による大規模復旧</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content-block content-block--muted reveal" id="contact-policy">
+          <div class="content-block__head">
+            <span class="content-block__label">Policy</span>
+            <h3 class="content-block__title">連絡が取れない場合</h3>
+          </div>
+          <ul class="feature__list">
+            <li class="feature__item">14日以上連絡が取れない場合、制作を一時停止する</li>
+            <li class="feature__item">30日以上連絡が取れない場合、キャンセル扱いとなる場合がある</li>
+            <li class="feature__item">素材提出や確認が遅れた場合、納期も後ろ倒しになる</li>
+            <li class="feature__item">制作再開時には、他案件との兼ね合いで再スケジュールになる場合がある</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. FAQ -->
+    <section class="section section--alt" id="faq">
+      <div class="wrap">
+        <div class="section__head reveal">
+          <span class="section__num">08 — FAQ</span>
+          <h2 class="section__title">よくあるご質問</h2>
+        </div>
+        <div class="faq__list reveal">
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Webサイトが初めてでも大丈夫ですか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>はい。ヒアリングシートをもとに、載せる内容から一緒に整理します。</p></div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>Instagramだけでも十分ですか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>Instagramは大切ですが、メニューや営業時間、コンセプトを整理して見せる公式サイトがあると、初めてのお客様に安心感を与えやすくなります。</p></div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>SEOは必ず必要ですか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>必ずではありません。InstagramやGoogleマップから飛ばして見てもらう目的なら、基本SEO設定で十分な場合もあります。</p></div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>WordPressで作れますか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>セキュリティと運用面を考え、現在は基本的にWordPress制作は対応していません。</p></div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>予約機能は作れますか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>予約システムの自作は対応外です。ホットペッパー、食べログ、Instagram DM、電話、外部予約サービスへの導線で対応します。</p></div></div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__q" type="button" aria-expanded="false">
+              <span>写真がなくても大丈夫ですか？</span>
+              <span class="faq__mark" aria-hidden="true">+</span>
+            </button>
+            <div class="faq__a" role="region"><div class="faq__a-inner"><p>基本はお客様支給ですが、近隣であれば簡易撮影に対応できる場合があります。</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 20. お問い合わせ -->
+    <section class="section contact" id="contact">
+      <div class="wrap">
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <span class="section__num">09 — Contact</span>
+            <h2 class="section__title">まずは気軽に<br>ご相談ください。</h2>
+            <p class="section__lead">
+              初めてのWebサイト制作でも大丈夫です。まずは、作りたいサイトのイメージやお店の情報をお聞かせください。相談前に決まっていなくても問題ありません。「何を載せればいいか分からない」という段階でも、一緒に整理できます。
+            </p>
+            <div class="contact__cta-links">
+              <a href="#contact-form" class="cta-btn cta-btn--on-dark cta-btn--emphasis">
+                <span class="cta-btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+                <span class="cta-btn__label">無料で相談する</span>
+                <span class="cta-btn__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg></span>
+              </a>
+              <a href="#pricing" class="cta-btn cta-btn--on-dark cta-btn--ghost">
+                <span class="cta-btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 7h10"/><path d="M7 12h6"/><path d="M7 17h8"/><circle cx="5" cy="7" r="1"/><circle cx="5" cy="12" r="1"/><circle cx="5" cy="17" r="1"/></svg></span>
+                <span class="cta-btn__label">料金プランを見る</span>
+                <span class="cta-btn__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg></span>
+              </a>
+              <a href="#portfolio" class="cta-btn cta-btn--on-dark cta-btn--ghost">
+                <span class="cta-btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></span>
+                <span class="cta-btn__label">制作実績を見る</span>
+                <span class="cta-btn__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg></span>
+              </a>
+            </div>
+            <a href="mailto:dohi.webc@gmail.com" class="contact__email">dohi.webc@gmail.com</a>
+          </div>
+          <form class="contact__form reveal" id="contact-form" novalidate style="--delay: 0.15s">
+            <div class="field">
+              <label for="name">お名前</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="shop">店舗名・事業名</label>
+              <input type="text" id="shop" name="shop" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="representative">代表者名</label>
+              <input type="text" id="representative" name="representative" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="message">ご相談内容</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="field">
+              <label for="budget">ご予算</label>
+              <select id="budget" name="budget">
+                <option value="">選択してください</option>
+                <option value="50000">50,000円前後（ライトプラン）</option>
+                <option value="100000">100,000円前後（スタンダード）</option>
+                <option value="150000">150,000円前後（プレミアム）</option>
+                <option value="undecided">まだ決まっていない</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="image">希望のサイトイメージ</label>
+              <textarea id="image" name="image" placeholder="雰囲気、色、参考にしたいサイトなど"></textarea>
+            </div>
+            <div class="field">
+              <label for="reference">参考サイトURL・SNS <span class="opt">任意</span></label>
+              <input type="url" id="reference" name="reference" placeholder="https://">
+            </div>
+            <div class="contact__actions">
+              <button type="submit" class="btn-submit">
+                <span class="btn-submit__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></span>
+                <span>送信する</span>
+              </button>
+              <a href="mailto:dohi.webc@gmail.com" class="cta-btn cta-btn--outline">
+                <span class="cta-btn__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></span>
+                <span class="cta-btn__label">メールで相談する</span>
+                <span class="cta-btn__arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 6l6 6-6 6"/></svg></span>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <p class="footer__brand">Dohi Web Design</p>
+        <p class="footer__tagline">個人店・小規模事業者向けのWebサイト制作</p>
+      </div>
+      <div class="footer__right">
+        <a href="mailto:dohi.webc@gmail.com" class="footer__email">dohi.webc@gmail.com</a>
+        <p class="footer__copy">&copy; 2026 Dohi Web Design</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
