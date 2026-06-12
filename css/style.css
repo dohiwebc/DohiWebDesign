@@ -1709,8 +1709,7 @@ button, input, select, textarea { font: inherit; color: inherit; background: non
   color: var(--muted);
   font-family: var(--font-body);
   font-weight: 400;
-  white-space: normal;
-  max-width: 9em;
+  white-space: nowrap;
   line-height: 1.45;
 }
 
